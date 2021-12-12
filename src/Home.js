@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native';
 
 import NavBar from './NavBar';
 
-const App = ({ componentId }) => {
+const Home = ({ componentId }) => {
   return (
     <Container>
       <Content contentContainerStyle={styles.mainContent}>
@@ -15,7 +15,7 @@ const App = ({ componentId }) => {
   );
 };
 
-export default App;
+export default Home;
 
 const styles = StyleSheet.create({
   mainContent: {

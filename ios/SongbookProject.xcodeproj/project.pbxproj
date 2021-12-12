@@ -11,12 +11,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1439CE3BD8CEF6C89A7E4463 /* libPods-SongbookProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0172E1760FE6EC31312E659 /* libPods-SongbookProject.a */; };
-		1AD4A52E670EE6DC4688A6B4 /* libPods-SongbookProject-SongbookProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1471735C3B37D7D5A5D0AA /* libPods-SongbookProject-SongbookProjectTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* SongbookProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SongbookProjectTests.m */; };
+		85EC12C6FE2A3AE56B1DB1EE /* libPods-SongbookProject-SongbookProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 075D6EF26899C605B883F4A2 /* libPods-SongbookProject-SongbookProjectTests.a */; };
+		8CE089D5FC59598C1980E348 /* libPods-SongbookProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF0ED4EF39A4F27E4D27ABE /* libPods-SongbookProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,8 @@
 		00E356EE1AD99517003FC87E /* SongbookProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongbookProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SongbookProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongbookProjectTests.m; sourceTree = "<group>"; };
+		075D6EF26899C605B883F4A2 /* libPods-SongbookProject-SongbookProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongbookProject-SongbookProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF0ED4EF39A4F27E4D27ABE /* libPods-SongbookProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongbookProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* SongbookProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongbookProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SongbookProject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SongbookProject/AppDelegate.m; sourceTree = "<group>"; };
@@ -49,34 +51,32 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SongbookProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SongbookProject/main.m; sourceTree = "<group>"; };
 		1F808F5B6F24453D863FB293 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		232E0EDC37F14E3484E11159 /* Pods-SongbookProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject.debug.xcconfig"; path = "Target Support Files/Pods-SongbookProject/Pods-SongbookProject.debug.xcconfig"; sourceTree = "<group>"; };
 		2A573BCBE575419DB604C5BD /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* SongbookProject-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SongbookProject-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* SongbookProject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SongbookProject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D114B1423F40C1A1A1DE11 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
-		3A1471735C3B37D7D5A5D0AA /* libPods-SongbookProject-SongbookProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongbookProject-SongbookProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		443DE458AEF44CBD9ED5528D /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		457E90FE874C4078B373E553 /* Pods-SongbookProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject.release.xcconfig"; path = "Target Support Files/Pods-SongbookProject/Pods-SongbookProject.release.xcconfig"; sourceTree = "<group>"; };
 		45B4E654632040BFBFCBF704 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		46EFDB53DEBFCACDF768C073 /* Pods-SongbookProject-SongbookProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject-SongbookProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		48874BA27CC54B319EB2FA8B /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		50678A33775B8739651471C8 /* Pods-SongbookProject-SongbookProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject-SongbookProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		509D8ACE98EA497E8BF0AFD9 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		5634A366485F433992E4A77B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		647A8483BE0342FB9991DA2D /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		73D4E8445FDB720337B16D90 /* Pods-SongbookProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject.release.xcconfig"; path = "Target Support Files/Pods-SongbookProject/Pods-SongbookProject.release.xcconfig"; sourceTree = "<group>"; };
 		83D7950C46994F68BE9D5E66 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		8BB0322B1C6D43A9B3B30E5B /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		997242FF2B3C49B0AF852EA1 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		9F2A38BB13CA421094B91514 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
-		A0172E1760FE6EC31312E659 /* libPods-SongbookProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongbookProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19A067976204A48B307A6F1 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
 		ACBC764A0D8D4BC6A22C062D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		C415E6A950A2448CAB7207A2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		C7FFDCDAABC64FECA97FC527 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		D58FF8AFFDF2008B8388A359 /* Pods-SongbookProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject.debug.xcconfig"; path = "Target Support Files/Pods-SongbookProject/Pods-SongbookProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E3184EBA23DC4D338D451612 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		EB8440E83BB8475812F5ED29 /* Pods-SongbookProject-SongbookProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject-SongbookProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FE5C4ADE0A194A7A8D8F3B6E /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		FF9EFDE154A37874F316D36D /* Pods-SongbookProject-SongbookProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject-SongbookProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AD4A52E670EE6DC4688A6B4 /* libPods-SongbookProject-SongbookProjectTests.a in Frameworks */,
+				85EC12C6FE2A3AE56B1DB1EE /* libPods-SongbookProject-SongbookProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1439CE3BD8CEF6C89A7E4463 /* libPods-SongbookProject.a in Frameworks */,
+				8CE089D5FC59598C1980E348 /* libPods-SongbookProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +175,8 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				A0172E1760FE6EC31312E659 /* libPods-SongbookProject.a */,
-				3A1471735C3B37D7D5A5D0AA /* libPods-SongbookProject-SongbookProjectTests.a */,
+				0EF0ED4EF39A4F27E4D27ABE /* libPods-SongbookProject.a */,
+				075D6EF26899C605B883F4A2 /* libPods-SongbookProject-SongbookProjectTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,10 +218,10 @@
 		C4E1A5F71E64CE7C72232F29 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				232E0EDC37F14E3484E11159 /* Pods-SongbookProject.debug.xcconfig */,
-				457E90FE874C4078B373E553 /* Pods-SongbookProject.release.xcconfig */,
-				FF9EFDE154A37874F316D36D /* Pods-SongbookProject-SongbookProjectTests.debug.xcconfig */,
-				50678A33775B8739651471C8 /* Pods-SongbookProject-SongbookProjectTests.release.xcconfig */,
+				D58FF8AFFDF2008B8388A359 /* Pods-SongbookProject.debug.xcconfig */,
+				73D4E8445FDB720337B16D90 /* Pods-SongbookProject.release.xcconfig */,
+				46EFDB53DEBFCACDF768C073 /* Pods-SongbookProject-SongbookProjectTests.debug.xcconfig */,
+				EB8440E83BB8475812F5ED29 /* Pods-SongbookProject-SongbookProjectTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -233,12 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SongbookProjectTests" */;
 			buildPhases = (
-				ABE9E01B601E74CA3003A9BB /* [CP] Check Pods Manifest.lock */,
+				65817B2E8A57B0EA86B8F3CC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				75BF89F3FA6BD66363A60BDE /* [CP] Embed Pods Frameworks */,
-				64453103F1708C34BBB5060A /* [CP] Copy Pods Resources */,
+				E5BCA9BF3107BA72A7B02C3E /* [CP] Embed Pods Frameworks */,
+				C492E72E1F6B3C529EE80962 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,14 +254,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SongbookProject" */;
 			buildPhases = (
-				02A47E3F210621FF82B90283 /* [CP] Check Pods Manifest.lock */,
+				529AAC0D7E730E280E60D74F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				BEA934D6487470C89B9EB6CD /* [CP] Embed Pods Frameworks */,
-				997BDCDA45150F0C08861704 /* [CP] Copy Pods Resources */,
+				2008985AD50646F7E4594148 /* [CP] Embed Pods Frameworks */,
+				567E693C3F51F6C12CB8399B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -404,7 +404,38 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		02A47E3F210621FF82B90283 /* [CP] Check Pods Manifest.lock */ = {
+		2008985AD50646F7E4594148 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject/Pods-SongbookProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject/Pods-SongbookProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SongbookProject/Pods-SongbookProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		529AAC0D7E730E280E60D74F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -426,55 +457,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		64453103F1708C34BBB5060A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		75BF89F3FA6BD66363A60BDE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		997BDCDA45150F0C08861704 /* [CP] Copy Pods Resources */ = {
+		567E693C3F51F6C12CB8399B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -491,7 +474,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SongbookProject/Pods-SongbookProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ABE9E01B601E74CA3003A9BB /* [CP] Check Pods Manifest.lock */ = {
+		65817B2E8A57B0EA86B8F3CC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -513,21 +496,38 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BEA934D6487470C89B9EB6CD /* [CP] Embed Pods Frameworks */ = {
+		C492E72E1F6B3C529EE80962 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject/Pods-SongbookProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject/Pods-SongbookProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SongbookProject/Pods-SongbookProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5BCA9BF3107BA72A7B02C3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -635,7 +635,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF9EFDE154A37874F316D36D /* Pods-SongbookProject-SongbookProjectTests.debug.xcconfig */;
+			baseConfigurationReference = 46EFDB53DEBFCACDF768C073 /* Pods-SongbookProject-SongbookProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -663,7 +663,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50678A33775B8739651471C8 /* Pods-SongbookProject-SongbookProjectTests.release.xcconfig */;
+			baseConfigurationReference = EB8440E83BB8475812F5ED29 /* Pods-SongbookProject-SongbookProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -688,7 +688,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 232E0EDC37F14E3484E11159 /* Pods-SongbookProject.debug.xcconfig */;
+			baseConfigurationReference = D58FF8AFFDF2008B8388A359 /* Pods-SongbookProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -718,7 +718,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 457E90FE874C4078B373E553 /* Pods-SongbookProject.release.xcconfig */;
+			baseConfigurationReference = 73D4E8445FDB720337B16D90 /* Pods-SongbookProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

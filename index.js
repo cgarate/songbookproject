@@ -1,9 +1,7 @@
-/**
- * @format
- */
 import React from 'react';
 import { Platform } from 'react-native';
-import { Navigation } from 'react-native-navigation';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import {
   ApolloClient,
   ApolloProvider,
@@ -12,25 +10,12 @@ import {
 } from '@apollo/client';
 import { NativeBaseProvider } from 'native-base';
 
-import App from './src/App';
+import Home from './src/Home';
 import Songs from './src/Songs';
 import Playlists from './src/Playlists';
 import About from './src/About';
 
-const registerComponent = (name, Comp, client) => {
-  Navigation.registerComponent(
-    name,
-    () => props =>
-      (
-        <ApolloProvider client={client}>
-          <NativeBaseProvider>
-            <Comp {...props} />
-          </NativeBaseProvider>
-        </ApolloProvider>
-      ),
-    () => Comp,
-  );
-};
+const Stack = createNativeStackNavigator();
 
 const IP_ADDRESS_OF_THE_ANDROID_DEVICE = '10.0.2.2';
 
@@ -47,23 +32,19 @@ console.log('🚀 ~ file: index.js ~ line 39 ~ link', link);
 
 const client = new ApolloClient({ cache: cache, link: link });
 
-registerComponent('Home', App, client);
-registerComponent('Songs', Songs, client);
-registerComponent('Playlists', Playlists, client);
-registerComponent('About', About, client);
+const App = () => (
+  <ApolloProvider client={client}>
+    <NativeBaseProvider>
+      <NavigationContainer>
+        <Stack.Navigator initialRouteName="Home">
+          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Songs" component={Songs} />
+          <Stack.Screen name="Playlists" component={Playlists} />
+          <Stack.Screen name="About" component={About} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </NativeBaseProvider>
+  </ApolloProvider>
+);
 
-Navigation.events().registerAppLaunchedListener(() => {
-  Navigation.setRoot({
-    root: {
-      stack: {
-        children: [
-          {
-            component: {
-              name: 'Home',
-            },
-          },
-        ],
-      },
-    },
-  });
-});
+export default App;
