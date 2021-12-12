@@ -4,13 +4,18 @@
 import React from 'react';
 import { Platform } from 'react-native';
 import { Navigation } from 'react-native-navigation';
-import { ApolloClient, ApolloProvider, InMemoryCache } from 'apollo-client';
-import { HttpLink } from 'apollo-link-http';
+import {
+  ApolloClient,
+  ApolloProvider,
+  InMemoryCache,
+  HttpLink,
+} from 'apollo-client';
 
 import App from './src/App';
 import Songs from './src/Songs';
 import Playlists from './src/Playlists';
 import About from './src/About';
+import { NativeBaseProvider } from 'native-base';
 
 const registerComponent = (name, Comp, client) => {
   Navigation.registerComponent(
@@ -18,7 +23,9 @@ const registerComponent = (name, Comp, client) => {
     () => props =>
       (
         <ApolloProvider client={client}>
-          <Comp {...props} />
+          <NativeBaseProvider>
+            <Comp {...props} />
+          </NativeBaseProvider>
         </ApolloProvider>
       ),
     () => Comp,
@@ -36,7 +43,7 @@ const cache = new InMemoryCache();
 const link = new HttpLink({
   uri: apiUri,
 });
-console.log("🚀 ~ file: index.js ~ line 39 ~ link", link)
+console.log('🚀 ~ file: index.js ~ line 39 ~ link', link);
 
 const client = new ApolloClient({ cache: cache, link: link });
 
