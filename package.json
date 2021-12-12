@@ -11,7 +11,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "apollo-client": "^3.5.6",
+    "apollo-client": "^2.6.10",
     "graphql": "^16.1.0",
     "graphql-tag": "^2.12.4",
     "native-base": "^3.2.2",
