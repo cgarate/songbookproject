@@ -1,8 +1,8 @@
 import React from 'react';
-const {Navigation} = require('react-native-navigation');
-import {Footer, FooterTab, Button, Icon, Text} from 'native-base';
+const { Navigation } = require('react-native-navigation');
+import { Footer, FooterTab, Button, Icon, Text } from 'native-base';
 
-const NavBar = ({navComponentId}) => {
+const NavBar = ({ navComponentId }) => {
   return (
     <Footer>
       <FooterTab>

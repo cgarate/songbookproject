@@ -8,7 +8,7 @@ import {
   Header,
   Text,
 } from 'native-base';
-import {useQuery} from '@apollo/react-hooks';
+import { useQuery } from 'apollo-client';
 import gql from 'graphql-tag';
 
 const QRY_PLAYLISTS = gql`
@@ -21,7 +21,7 @@ const QRY_PLAYLISTS = gql`
 `;
 
 const Playlists = props => {
-  const {loading, error, data} = useQuery(QRY_PLAYLISTS);
+  const { loading, error, data } = useQuery(QRY_PLAYLISTS);
   if (loading) {
     return <Text>Loading...</Text>;
   }

@@ -1,10 +1,10 @@
 import React from 'react';
-import {Container, H1, Content} from 'native-base';
-import {StyleSheet} from 'react-native';
+import { Container, H1, Content } from 'native-base';
+import { StyleSheet } from 'react-native';
 
 import NavBar from './NavBar';
 
-const App = ({componentId}) => {
+const App = ({ componentId }) => {
   return (
     <Container>
       <Content contentContainerStyle={styles.mainContent}>

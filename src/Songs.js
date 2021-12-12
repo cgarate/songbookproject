@@ -1,5 +1,5 @@
 import React from 'react';
-import {useQuery} from '@apollo/react-hooks';
+import { useQuery } from 'apollo-client';
 import gql from 'graphql-tag';
 
 import {
@@ -22,7 +22,7 @@ const QRY_SONGS = gql`
 `;
 
 const Songs = props => {
-  const {loading, error, data} = useQuery(QRY_SONGS);
+  const { loading, error, data } = useQuery(QRY_SONGS);
   if (loading) {
     return <Text>Loading...</Text>;
   }

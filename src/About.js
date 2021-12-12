@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Content, H1, Header, Text} from 'native-base';
+import { Container, Content, H1, Header, Text } from 'native-base';
 
 const About = props => {
   return (
