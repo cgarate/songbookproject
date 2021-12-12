@@ -12,33 +12,31 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		23CCC9347B1541CBA3B70AA9 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A573BCBE575419DB604C5BD /* SimpleLineIcons.ttf */; };
+		2833A24A792C47ABB48036D1 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A19A067976204A48B307A6F1 /* Roboto.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D0C5EB22CCA4A669D933929 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35D114B1423F40C1A1A1DE11 /* Roboto_medium.ttf */; };
 		2DCD954D1E0B4F2C00145EB5 /* SongbookProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SongbookProjectTests.m */; };
-		31E4E21707EE3EC43844B94A /* libPods-SongbookProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CB1983D363FCB2B1819102 /* libPods-SongbookProject.a */; };
-		46D1317C3450B96E66433066 /* libPods-SongbookProject-SongbookProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED71F5420F5FF7127C16DF3 /* libPods-SongbookProject-SongbookProjectTests.a */; };
-		5C244691B8353E34913E652B /* libPods-SongbookProject-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 104FA11DB10AD4CF695AAC46 /* libPods-SongbookProject-tvOSTests.a */; };
-		BCC6B1A5E436FCFE71D64216 /* libPods-SongbookProject-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 122D3AE77E503E047032BAE4 /* libPods-SongbookProject-tvOS.a */; };
-		C175259BA0674A258143BA5B /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45B4E654632040BFBFCBF704 /* AntDesign.ttf */; };
-		7CFAFEF854F143F1AE7D2A73 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BB0322B1C6D43A9B3B30E5B /* Entypo.ttf */; };
+		30D88ACE26F89986BE0D6E25 /* libPods-SongbookProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADAAF9F70893B9406E7FF73 /* libPods-SongbookProject.a */; };
+		530DB9800627496789D1D762 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 509D8ACE98EA497E8BF0AFD9 /* Foundation.ttf */; };
+		567062E14F4945998C4F8162 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE5C4ADE0A194A7A8D8F3B6E /* MaterialCommunityIcons.ttf */; };
+		5C056F48BC83444E92E94989 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83D7950C46994F68BE9D5E66 /* Ionicons.ttf */; };
 		5FB016FF29624D858E4D63BE /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F808F5B6F24453D863FB293 /* EvilIcons.ttf */; };
 		62C4EB69502045BFBE4D7E4E /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 443DE458AEF44CBD9ED5528D /* Feather.ttf */; };
-		B33F41E375DE469FB92EC503 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 647A8483BE0342FB9991DA2D /* FontAwesome.ttf */; };
-		9D50B508B0A44FCC889930B3 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5634A366485F433992E4A77B /* FontAwesome5_Brands.ttf */; };
-		B6C2217B79A34618B00E0B79 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 997242FF2B3C49B0AF852EA1 /* FontAwesome5_Regular.ttf */; };
 		6DD2923937284A2D8392EC10 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FFDCDAABC64FECA97FC527 /* FontAwesome5_Solid.ttf */; };
-		9825738D15EB4FCA8EBEDCDE /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48874BA27CC54B319EB2FA8B /* Fontisto.ttf */; };
-		530DB9800627496789D1D762 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 509D8ACE98EA497E8BF0AFD9 /* Foundation.ttf */; };
-		5C056F48BC83444E92E94989 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83D7950C46994F68BE9D5E66 /* Ionicons.ttf */; };
-		567062E14F4945998C4F8162 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE5C4ADE0A194A7A8D8F3B6E /* MaterialCommunityIcons.ttf */; };
-		C6A5F5AB6AFD4E43976DFF85 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C415E6A950A2448CAB7207A2 /* MaterialIcons.ttf */; };
-		9D1DE681F9AD4494B0EBBFAC /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACBC764A0D8D4BC6A22C062D /* Octicons.ttf */; };
-		2D0C5EB22CCA4A669D933929 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35D114B1423F40C1A1A1DE11 /* Roboto_medium.ttf */; };
-		2833A24A792C47ABB48036D1 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A19A067976204A48B307A6F1 /* Roboto.ttf */; };
-		BCA3B2AC6ADF4C1887767A02 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F2A38BB13CA421094B91514 /* rubicon-icon-font.ttf */; };
-		23CCC9347B1541CBA3B70AA9 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A573BCBE575419DB604C5BD /* SimpleLineIcons.ttf */; };
 		7A89378953F1429ABDB2510E /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3184EBA23DC4D338D451612 /* Zocial.ttf */; };
+		7CFAFEF854F143F1AE7D2A73 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BB0322B1C6D43A9B3B30E5B /* Entypo.ttf */; };
+		9825738D15EB4FCA8EBEDCDE /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48874BA27CC54B319EB2FA8B /* Fontisto.ttf */; };
+		9D1DE681F9AD4494B0EBBFAC /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACBC764A0D8D4BC6A22C062D /* Octicons.ttf */; };
+		9D50B508B0A44FCC889930B3 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5634A366485F433992E4A77B /* FontAwesome5_Brands.ttf */; };
+		B33F41E375DE469FB92EC503 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 647A8483BE0342FB9991DA2D /* FontAwesome.ttf */; };
+		B6C2217B79A34618B00E0B79 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 997242FF2B3C49B0AF852EA1 /* FontAwesome5_Regular.ttf */; };
+		BCA3B2AC6ADF4C1887767A02 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F2A38BB13CA421094B91514 /* rubicon-icon-font.ttf */; };
+		C175259BA0674A258143BA5B /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45B4E654632040BFBFCBF704 /* AntDesign.ttf */; };
+		C6A5F5AB6AFD4E43976DFF85 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C415E6A950A2448CAB7207A2 /* MaterialIcons.ttf */; };
+		C78EAB2C2D5FC61A6578D21A /* libPods-SongbookProject-SongbookProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56972AFD55DC5AC062583B03 /* libPods-SongbookProject-SongbookProjectTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +61,9 @@
 		00E356EE1AD99517003FC87E /* SongbookProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongbookProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SongbookProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongbookProjectTests.m; sourceTree = "<group>"; };
-		104FA11DB10AD4CF695AAC46 /* libPods-SongbookProject-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongbookProject-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		122D3AE77E503E047032BAE4 /* libPods-SongbookProject-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongbookProject-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01858FD4D54FE4D77A07547E /* Pods-SongbookProject-SongbookProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject-SongbookProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		095B804250DFEC513B619590 /* Pods-SongbookProject-SongbookProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject-SongbookProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0ADAAF9F70893B9406E7FF73 /* libPods-SongbookProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongbookProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* SongbookProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongbookProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SongbookProject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SongbookProject/AppDelegate.m; sourceTree = "<group>"; };
@@ -72,39 +71,32 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SongbookProject/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SongbookProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SongbookProject/main.m; sourceTree = "<group>"; };
-		25C2F337AC529CD128196786 /* Pods-SongbookProject-SongbookProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject-SongbookProjectTests.release.xcconfig"; path = "Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F808F5B6F24453D863FB293 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		2A573BCBE575419DB604C5BD /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* SongbookProject-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SongbookProject-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* SongbookProject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SongbookProject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2ED71F5420F5FF7127C16DF3 /* libPods-SongbookProject-SongbookProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongbookProject-SongbookProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61CB1983D363FCB2B1819102 /* libPods-SongbookProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongbookProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A421BF0A8F7231AEAF5A8A5 /* Pods-SongbookProject-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SongbookProject-tvOS/Pods-SongbookProject-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		6FF9697E8BD352F88A01E0CD /* Pods-SongbookProject-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SongbookProject-tvOSTests/Pods-SongbookProject-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BE3E247B6B8EBA1C6A731450 /* Pods-SongbookProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject.debug.xcconfig"; path = "Target Support Files/Pods-SongbookProject/Pods-SongbookProject.debug.xcconfig"; sourceTree = "<group>"; };
-		D3B8D7C1460CC814CB9FE4D4 /* Pods-SongbookProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject.release.xcconfig"; path = "Target Support Files/Pods-SongbookProject/Pods-SongbookProject.release.xcconfig"; sourceTree = "<group>"; };
-		DFB346A9783D3EBD5BF3CD25 /* Pods-SongbookProject-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SongbookProject-tvOSTests/Pods-SongbookProject-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		35D114B1423F40C1A1A1DE11 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		443DE458AEF44CBD9ED5528D /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		45B4E654632040BFBFCBF704 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		48874BA27CC54B319EB2FA8B /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		509D8ACE98EA497E8BF0AFD9 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		5634A366485F433992E4A77B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		56972AFD55DC5AC062583B03 /* libPods-SongbookProject-SongbookProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongbookProject-SongbookProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		647A8483BE0342FB9991DA2D /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		83D7950C46994F68BE9D5E66 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		8BB0322B1C6D43A9B3B30E5B /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		997242FF2B3C49B0AF852EA1 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		9F2A38BB13CA421094B91514 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		A19A067976204A48B307A6F1 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		ACBC764A0D8D4BC6A22C062D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		C415E6A950A2448CAB7207A2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		C7FFDCDAABC64FECA97FC527 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		DBADF8497803E289A796B10E /* Pods-SongbookProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject.debug.xcconfig"; path = "Target Support Files/Pods-SongbookProject/Pods-SongbookProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E3184EBA23DC4D338D451612 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F4FEE24EA9BCDD9A10841374 /* Pods-SongbookProject-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SongbookProject-tvOS/Pods-SongbookProject-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		FB356D0BAF81ED12CD024167 /* Pods-SongbookProject-SongbookProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject-SongbookProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
-		45B4E654632040BFBFCBF704 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8BB0322B1C6D43A9B3B30E5B /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1F808F5B6F24453D863FB293 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		443DE458AEF44CBD9ED5528D /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		647A8483BE0342FB9991DA2D /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5634A366485F433992E4A77B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		997242FF2B3C49B0AF852EA1 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C7FFDCDAABC64FECA97FC527 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		48874BA27CC54B319EB2FA8B /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		509D8ACE98EA497E8BF0AFD9 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		83D7950C46994F68BE9D5E66 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FE5C4ADE0A194A7A8D8F3B6E /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C415E6A950A2448CAB7207A2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		ACBC764A0D8D4BC6A22C062D /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		35D114B1423F40C1A1A1DE11 /* Roboto_medium.ttf */ = {isa = PBXFileReference; name = "Roboto_medium.ttf"; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A19A067976204A48B307A6F1 /* Roboto.ttf */ = {isa = PBXFileReference; name = "Roboto.ttf"; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9F2A38BB13CA421094B91514 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2A573BCBE575419DB604C5BD /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E3184EBA23DC4D338D451612 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F396E6B0A9CF9769604529DE /* Pods-SongbookProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongbookProject.release.xcconfig"; path = "Target Support Files/Pods-SongbookProject/Pods-SongbookProject.release.xcconfig"; sourceTree = "<group>"; };
+		FE5C4ADE0A194A7A8D8F3B6E /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46D1317C3450B96E66433066 /* libPods-SongbookProject-SongbookProjectTests.a in Frameworks */,
+				C78EAB2C2D5FC61A6578D21A /* libPods-SongbookProject-SongbookProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31E4E21707EE3EC43844B94A /* libPods-SongbookProject.a in Frameworks */,
+				30D88ACE26F89986BE0D6E25 /* libPods-SongbookProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +120,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCC6B1A5E436FCFE71D64216 /* libPods-SongbookProject-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +127,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C244691B8353E34913E652B /* libPods-SongbookProject-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,85 +150,8 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* SongbookProject */ = {
-			isa = PBXGroup;
-			children = (
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
-				13B07FB71A68108700A75B9A /* main.m */,
-			);
-			name = SongbookProject;
-			sourceTree = "<group>";
-		};
-		19133ACF738FAD9E470E29D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BE3E247B6B8EBA1C6A731450 /* Pods-SongbookProject.debug.xcconfig */,
-				D3B8D7C1460CC814CB9FE4D4 /* Pods-SongbookProject.release.xcconfig */,
-				FB356D0BAF81ED12CD024167 /* Pods-SongbookProject-SongbookProjectTests.debug.xcconfig */,
-				25C2F337AC529CD128196786 /* Pods-SongbookProject-SongbookProjectTests.release.xcconfig */,
-				F4FEE24EA9BCDD9A10841374 /* Pods-SongbookProject-tvOS.debug.xcconfig */,
-				6A421BF0A8F7231AEAF5A8A5 /* Pods-SongbookProject-tvOS.release.xcconfig */,
-				6FF9697E8BD352F88A01E0CD /* Pods-SongbookProject-tvOSTests.debug.xcconfig */,
-				DFB346A9783D3EBD5BF3CD25 /* Pods-SongbookProject-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				61CB1983D363FCB2B1819102 /* libPods-SongbookProject.a */,
-				2ED71F5420F5FF7127C16DF3 /* libPods-SongbookProject-SongbookProjectTests.a */,
-				122D3AE77E503E047032BAE4 /* libPods-SongbookProject-tvOS.a */,
-				104FA11DB10AD4CF695AAC46 /* libPods-SongbookProject-tvOSTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		83CBB9F61A601CBA00E9B192 = {
-			isa = PBXGroup;
-			children = (
-				13B07FAE1A68108700A75B9A /* SongbookProject */,
-				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* SongbookProjectTests */,
-				83CBBA001A601CBA00E9B192 /* Products */,
-				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				19133ACF738FAD9E470E29D6 /* Pods */,
-				0EF462BCE4B540628989EAAD /* Resources */,
-			);
-			indentWidth = 2;
-			sourceTree = "<group>";
-			tabWidth = 2;
-			usesTabs = 0;
-		};
-		83CBBA001A601CBA00E9B192 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				13B07F961A680F5B00A75B9A /* SongbookProject.app */,
-				00E356EE1AD99517003FC87E /* SongbookProjectTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* SongbookProject-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* SongbookProject-tvOSTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		0EF462BCE4B540628989EAAD /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				45B4E654632040BFBFCBF704 /* AntDesign.ttf */,
 				8BB0322B1C6D43A9B3B30E5B /* Entypo.ttf */,
@@ -262,7 +175,76 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
+		};
+		13B07FAE1A68108700A75B9A /* SongbookProject */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = SongbookProject;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				0ADAAF9F70893B9406E7FF73 /* libPods-SongbookProject.a */,
+				56972AFD55DC5AC062583B03 /* libPods-SongbookProject-SongbookProjectTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* SongbookProject */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* SongbookProjectTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				0EF462BCE4B540628989EAAD /* Resources */,
+				C4E1A5F71E64CE7C72232F29 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* SongbookProject.app */,
+				00E356EE1AD99517003FC87E /* SongbookProjectTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* SongbookProject-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* SongbookProject-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E1A5F71E64CE7C72232F29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBADF8497803E289A796B10E /* Pods-SongbookProject.debug.xcconfig */,
+				F396E6B0A9CF9769604529DE /* Pods-SongbookProject.release.xcconfig */,
+				095B804250DFEC513B619590 /* Pods-SongbookProject-SongbookProjectTests.debug.xcconfig */,
+				01858FD4D54FE4D77A07547E /* Pods-SongbookProject-SongbookProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -271,10 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SongbookProjectTests" */;
 			buildPhases = (
-				59CB03AC9CC1FD1E0401CA75 /* [CP] Check Pods Manifest.lock */,
+				F30E0CE711E4CA71076FC68B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				6461C38F70CC50A242900E2E /* [CP] Embed Pods Frameworks */,
+				02E46BCC1E10F7755F53FB69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,12 +274,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SongbookProject" */;
 			buildPhases = (
-				0F6D16AE529E170706D57C49 /* [CP] Check Pods Manifest.lock */,
+				4117BC3B35FCD31EE09C5C98 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				A75F943C9A7F7A222AF58604 /* [CP] Embed Pods Frameworks */,
+				F412608F8F4FE1217A31FD9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,7 +296,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SongbookProject-tvOS" */;
 			buildPhases = (
-				831C3B6F3FBB1EFE97B233F9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -330,7 +315,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SongbookProject-tvOSTests" */;
 			buildPhases = (
-				3E047FF62BB9BB6D135579F7 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -351,7 +335,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -460,7 +444,39 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0F6D16AE529E170706D57C49 /* [CP] Check Pods Manifest.lock */ = {
+		02E46BCC1E10F7755F53FB69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		4117BC3B35FCD31EE09C5C98 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -482,43 +498,47 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+		6461C38F70CC50A242900E2E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/double-conversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
 			);
-			name = "Bundle React Native Code And Images";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		3E047FF62BB9BB6D135579F7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SongbookProject-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SongbookProject-SongbookProjectTests/Pods-SongbookProject-SongbookProjectTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		59CB03AC9CC1FD1E0401CA75 /* [CP] Check Pods Manifest.lock */ = {
+		A75F943C9A7F7A222AF58604 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject/Pods-SongbookProject-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/double-conversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SongbookProject/Pods-SongbookProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F30E0CE711E4CA71076FC68B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -540,26 +560,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		831C3B6F3FBB1EFE97B233F9 /* [CP] Check Pods Manifest.lock */ = {
+		F412608F8F4FE1217A31FD9B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-SongbookProject/Pods-SongbookProject-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SongbookProject-tvOS-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SongbookProject/Pods-SongbookProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -667,15 +683,16 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB356D0BAF81ED12CD024167 /* Pods-SongbookProject-SongbookProjectTests.debug.xcconfig */;
+			baseConfigurationReference = 095B804250DFEC513B619590 /* Pods-SongbookProject-SongbookProjectTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SongbookProjectTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -690,12 +707,13 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25C2F337AC529CD128196786 /* Pods-SongbookProject-SongbookProjectTests.release.xcconfig */;
+			baseConfigurationReference = 01858FD4D54FE4D77A07547E /* Pods-SongbookProject-SongbookProjectTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = SongbookProjectTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -710,7 +728,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE3E247B6B8EBA1C6A731450 /* Pods-SongbookProject.debug.xcconfig */;
+			baseConfigurationReference = DBADF8497803E289A796B10E /* Pods-SongbookProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -737,7 +755,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3B8D7C1460CC814CB9FE4D4 /* Pods-SongbookProject.release.xcconfig */;
+			baseConfigurationReference = F396E6B0A9CF9769604529DE /* Pods-SongbookProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -758,7 +776,6 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4FEE24EA9BCDD9A10841374 /* Pods-SongbookProject-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -780,13 +797,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A421BF0A8F7231AEAF5A8A5 /* Pods-SongbookProject-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -808,13 +824,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FF9697E8BD352F88A01E0CD /* Pods-SongbookProject-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -835,13 +850,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SongbookProject-tvOS.app/SongbookProject-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFB346A9783D3EBD5BF3CD25 /* Pods-SongbookProject-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -862,7 +876,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SongbookProject-tvOS.app/SongbookProject-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -889,6 +903,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -898,6 +913,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -913,7 +929,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
@@ -949,6 +965,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -958,6 +975,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -966,7 +984,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
