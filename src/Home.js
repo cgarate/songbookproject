@@ -1,16 +1,14 @@
 import React from 'react';
-import { Container, H1, Content } from 'native-base';
+import { Container, Heading } from 'native-base';
 import { StyleSheet } from 'react-native';
 
 import NavBar from './NavBar';
 
-const Home = ({ componentId }) => {
+const Home = ({ navigation }) => {
   return (
-    <Container>
-      <Content contentContainerStyle={styles.mainContent}>
-        <H1>Songbook</H1>
-      </Content>
-      <NavBar navComponentId={componentId} />
+    <Container contentContainerStyle={styles.mainContent}>
+      <Heading>Songbook</Heading>
+      <NavBar navigation={navigation} />
     </Container>
   );
 };

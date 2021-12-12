@@ -1,13 +1,5 @@
 import React from 'react';
-import {
-  Container,
-  Content,
-  H1,
-  List,
-  ListItem,
-  Header,
-  Text,
-} from 'native-base';
+import { Container, List, ListItem, Text, Heading } from 'native-base';
 import { useQuery } from '@apollo/client';
 import gql from 'graphql-tag';
 
@@ -30,20 +22,16 @@ const Playlists = props => {
   }
   return (
     <Container>
-      <Header>
-        <H1>Playlists</H1>
-      </Header>
-      <Content>
-        <List>
-          {data.playlists.map(pl => {
-            return (
-              <ListItem key={pl.id}>
-                <Text>{pl.name}</Text>
-              </ListItem>
-            );
-          })}
-        </List>
-      </Content>
+      <Heading>Playlists</Heading>
+      <List>
+        {data.playlists.map(pl => {
+          return (
+            <ListItem key={pl.id}>
+              <Text>{pl.name}</Text>
+            </ListItem>
+          );
+        })}
+      </List>
     </Container>
   );
 };
