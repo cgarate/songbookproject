@@ -3,39 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SongbookProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SongbookProjectTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		23CCC9347B1541CBA3B70AA9 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A573BCBE575419DB604C5BD /* SimpleLineIcons.ttf */; };
-		2833A24A792C47ABB48036D1 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A19A067976204A48B307A6F1 /* Roboto.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2D0C5EB22CCA4A669D933929 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35D114B1423F40C1A1A1DE11 /* Roboto_medium.ttf */; };
 		2DCD954D1E0B4F2C00145EB5 /* SongbookProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SongbookProjectTests.m */; };
 		30D88ACE26F89986BE0D6E25 /* libPods-SongbookProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADAAF9F70893B9406E7FF73 /* libPods-SongbookProject.a */; };
-		530DB9800627496789D1D762 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 509D8ACE98EA497E8BF0AFD9 /* Foundation.ttf */; };
-		567062E14F4945998C4F8162 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE5C4ADE0A194A7A8D8F3B6E /* MaterialCommunityIcons.ttf */; };
-		5C056F48BC83444E92E94989 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83D7950C46994F68BE9D5E66 /* Ionicons.ttf */; };
-		5FB016FF29624D858E4D63BE /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F808F5B6F24453D863FB293 /* EvilIcons.ttf */; };
-		62C4EB69502045BFBE4D7E4E /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 443DE458AEF44CBD9ED5528D /* Feather.ttf */; };
-		6DD2923937284A2D8392EC10 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7FFDCDAABC64FECA97FC527 /* FontAwesome5_Solid.ttf */; };
-		7A89378953F1429ABDB2510E /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3184EBA23DC4D338D451612 /* Zocial.ttf */; };
-		7CFAFEF854F143F1AE7D2A73 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BB0322B1C6D43A9B3B30E5B /* Entypo.ttf */; };
-		9825738D15EB4FCA8EBEDCDE /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48874BA27CC54B319EB2FA8B /* Fontisto.ttf */; };
-		9D1DE681F9AD4494B0EBBFAC /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACBC764A0D8D4BC6A22C062D /* Octicons.ttf */; };
-		9D50B508B0A44FCC889930B3 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5634A366485F433992E4A77B /* FontAwesome5_Brands.ttf */; };
-		B33F41E375DE469FB92EC503 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 647A8483BE0342FB9991DA2D /* FontAwesome.ttf */; };
-		B6C2217B79A34618B00E0B79 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 997242FF2B3C49B0AF852EA1 /* FontAwesome5_Regular.ttf */; };
-		BCA3B2AC6ADF4C1887767A02 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F2A38BB13CA421094B91514 /* rubicon-icon-font.ttf */; };
-		C175259BA0674A258143BA5B /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45B4E654632040BFBFCBF704 /* AntDesign.ttf */; };
-		C6A5F5AB6AFD4E43976DFF85 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C415E6A950A2448CAB7207A2 /* MaterialIcons.ttf */; };
 		C78EAB2C2D5FC61A6578D21A /* libPods-SongbookProject-SongbookProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56972AFD55DC5AC062583B03 /* libPods-SongbookProject-SongbookProjectTests.a */; };
 /* End PBXBuildFile section */
 
@@ -356,7 +336,7 @@
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SongbookProject" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -389,26 +369,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				C175259BA0674A258143BA5B /* AntDesign.ttf in Resources */,
-				7CFAFEF854F143F1AE7D2A73 /* Entypo.ttf in Resources */,
-				5FB016FF29624D858E4D63BE /* EvilIcons.ttf in Resources */,
-				62C4EB69502045BFBE4D7E4E /* Feather.ttf in Resources */,
-				B33F41E375DE469FB92EC503 /* FontAwesome.ttf in Resources */,
-				9D50B508B0A44FCC889930B3 /* FontAwesome5_Brands.ttf in Resources */,
-				B6C2217B79A34618B00E0B79 /* FontAwesome5_Regular.ttf in Resources */,
-				6DD2923937284A2D8392EC10 /* FontAwesome5_Solid.ttf in Resources */,
-				9825738D15EB4FCA8EBEDCDE /* Fontisto.ttf in Resources */,
-				530DB9800627496789D1D762 /* Foundation.ttf in Resources */,
-				5C056F48BC83444E92E94989 /* Ionicons.ttf in Resources */,
-				567062E14F4945998C4F8162 /* MaterialCommunityIcons.ttf in Resources */,
-				C6A5F5AB6AFD4E43976DFF85 /* MaterialIcons.ttf in Resources */,
-				9D1DE681F9AD4494B0EBBFAC /* Octicons.ttf in Resources */,
-				2D0C5EB22CCA4A669D933929 /* Roboto_medium.ttf in Resources */,
-				2833A24A792C47ABB48036D1 /* Roboto.ttf in Resources */,
-				BCA3B2AC6ADF4C1887767A02 /* rubicon-icon-font.ttf in Resources */,
-				23CCC9347B1541CBA3B70AA9 /* SimpleLineIcons.ttf in Resources */,
-				7A89378953F1429ABDB2510E /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +402,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		02E46BCC1E10F7755F53FB69 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -693,7 +653,11 @@
 				);
 				INFOPLIST_FILE = SongbookProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -714,7 +678,11 @@
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = SongbookProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -739,7 +707,10 @@
 					"FB_SONARKIT_ENABLED=1",
 				);
 				INFOPLIST_FILE = SongbookProject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -761,7 +732,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = SongbookProject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -787,7 +761,10 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "SongbookProject-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -814,7 +791,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "SongbookProject-tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -840,7 +820,11 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "SongbookProject-tvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -866,7 +850,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "SongbookProject-tvOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -930,7 +918,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
@@ -985,7 +976,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
