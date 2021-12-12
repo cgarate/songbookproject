@@ -9,13 +9,13 @@ import {
   ApolloProvider,
   InMemoryCache,
   HttpLink,
-} from 'apollo-client';
+} from '@apollo/client';
+import { NativeBaseProvider } from 'native-base';
 
 import App from './src/App';
 import Songs from './src/Songs';
 import Playlists from './src/Playlists';
 import About from './src/About';
-import { NativeBaseProvider } from 'native-base';
 
 const registerComponent = (name, Comp, client) => {
   Navigation.registerComponent(

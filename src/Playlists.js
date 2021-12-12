@@ -8,7 +8,7 @@ import {
   Header,
   Text,
 } from 'native-base';
-import { useQuery } from 'apollo-client';
+import { useQuery } from '@apollo/client';
 import gql from 'graphql-tag';
 
 const QRY_PLAYLISTS = gql`
