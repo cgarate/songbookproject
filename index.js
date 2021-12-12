@@ -1,5 +1,5 @@
 import React from 'react';
-import { Platform } from 'react-native';
+import { Platform, AppRegistry } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import {
@@ -14,6 +14,7 @@ import Home from './src/Home';
 import Songs from './src/Songs';
 import Playlists from './src/Playlists';
 import About from './src/About';
+import { name as appName } from './app.json';
 
 const Stack = createNativeStackNavigator();
 
@@ -47,4 +48,4 @@ const App = () => (
   </ApolloProvider>
 );
 
-export default App;
+AppRegistry.registerComponent(appName, () => App);
