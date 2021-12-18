@@ -29,7 +29,6 @@ const cache = new InMemoryCache();
 const link = new HttpLink({
   uri: apiUri,
 });
-console.log('🚀 ~ file: index.js ~ line 39 ~ link', link);
 
 const client = new ApolloClient({ cache: cache, link: link });
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, List, ListItem, Text, Heading } from 'native-base';
+import { Container, Text, Heading, VStack, HStack, Divider } from 'native-base';
 import { useQuery } from '@apollo/client';
 import gql from 'graphql-tag';
 
@@ -18,20 +18,22 @@ const Playlists = props => {
     return <Text>Loading...</Text>;
   }
   if (error) {
+    console.log('🚀 ~ file: Playlists.js ~ line 21 ~ error', error);
+
     return <Text>Error :(</Text>;
   }
   return (
     <Container>
       <Heading>Playlists</Heading>
-      <List>
+      <VStack space={3} divider={<Divider />} w="90%">
         {data.playlists.map(pl => {
           return (
-            <ListItem key={pl.id}>
+            <HStack justifyContent="space-between" key={pl.id}>
               <Text>{pl.name}</Text>
-            </ListItem>
+            </HStack>
           );
         })}
-      </List>
+      </VStack>
     </Container>
   );
 };
