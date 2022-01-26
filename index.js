@@ -8,21 +8,14 @@ import {
   InMemoryCache,
   HttpLink,
 } from '@apollo/client';
-import { NativeBaseProvider, Icon } from 'native-base';
+import { NativeBaseProvider } from 'native-base';
 
-import Home from './src/Home';
-import Songs from './src/Songs';
-import Playlists from './src/Playlists';
-import About from './src/About';
+import Home from 'Home';
+import Songs from 'Songs';
+import Playlists from 'Playlists';
+import About from 'About';
 import { name as appName } from './app.json';
-import HomeIconOutline from './assets/icons/home-outline.svg';
-import HomeIcon from './assets/icons/home.svg';
-import ListOutline from './assets/icons/list-outline.svg';
-import List from './assets/icons/list.svg';
-import InfoOutline from './assets/icons/info-outline.svg';
-import Info from './assets/icons/info.svg';
-import MusicalNotesOutline from './assets/icons/musical-notes-outline.svg';
-import MusicalNotes from './assets/icons/musical-notes.svg';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 const Tab = createBottomTabNavigator();
 
@@ -47,20 +40,22 @@ const App = () => (
         <Tab.Navigator
           screenOptions={({ route }) => ({
             tabBarIcon: ({ focused, color, size }) => {
-              let IconName;
+              let iconName;
               if (route.name === 'Home') {
-                IconName = focused ? HomeIcon : HomeIconOutline;
+                iconName = focused ? 'home' : 'home-outline';
               }
               if (route.name === 'About') {
-                IconName = focused ? 'information' : 'information-outline';
+                iconName = focused
+                  ? 'information-circle'
+                  : 'information-circle-outline';
               }
               if (route.name === 'Songs') {
-                IconName = focused ? 'musical-notes' : 'musical-notes-outline';
+                iconName = focused ? 'musical-notes' : 'musical-notes-outline';
               }
               if (route.name === 'Playlists') {
-                IconName = focused ? 'list' : 'list-outline';
+                iconName = focused ? 'list' : 'list-outline';
               }
-              return <IconName />;
+              return <Icon name={iconName} />;
             },
           })}>
           <Tab.Screen
